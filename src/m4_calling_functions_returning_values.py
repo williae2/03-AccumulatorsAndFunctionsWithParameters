@@ -261,18 +261,18 @@ def run_test_fancy_sums_of_digits():
     print('Testing the   fancy_sums_of_digits   function:')
     print('--------------------------------------------------')
 
-    expected = 49984
-    answer = fancy_sums_of_digits(5)
+    expected = 19084
+    answer = fancy_sums_of_digits(2)
     print('Test 1 expected:', expected)
     print('       actual:  ', answer)
 
-    expected = 19084
-    answer = fancy_sums_of_digits(2)
+    expected = 49984
+    answer = fancy_sums_of_digits(5)
     print('Test 2 expected:', expected)
     print('       actual:  ', answer)
 
-    expected = 123604
-    answer = fancy_sums_of_digits(34)
+    expected = 124309
+    answer = fancy_sums_of_digits(35)
     print('Test 3 expected:', expected)
     print('       actual:  ', answer)
 
